@@ -265,6 +265,8 @@ public class HelloController {
 ### 8 附录：代码汇总
 似乎增加@会自动import，而且中途pom文件增加了好几个依赖，因此将完整代码附到下面。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201004110737805.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg4MzgxNQ==,size_16,color_FFFFFF,t_70#pic_center)
+
+
 `HelloWorldMainApplication.java`:
 
 ```java
