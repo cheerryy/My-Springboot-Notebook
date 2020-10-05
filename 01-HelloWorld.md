@@ -70,7 +70,8 @@ SpringBoot不需要手动下载，只需要后续在文件中配置即可自动�
  1. 打开idea，new project，选择左侧maven
  2. 修改上方的project sdk为自己安装jdk的目录，next![在这里插入图片描述](https://img-blog.csdnimg.cn/20201004103004858.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg4MzgxNQ==,size_16,color_FFFFFF,t_70#pic_center)
 
- 3. 设置项目名称和存储地址，finish![在这里插入图片描述](https://img-blog.csdnimg.cn/20201004103051877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg4MzgxNQ==,size_16,color_FFFFFF,t_70#pic_center)
+ 3. 设置项目名称和存储地址，finish
+ ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201004103051877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg4MzgxNQ==,size_16,color_FFFFFF,t_70#pic_center)
 4. 右下角 启动自动导入，这样在pom文件里面每写一个依赖就会自动加入相关依赖
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201004103252322.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg4MzgxNQ==,size_16,color_FFFFFF,t_70#pic_center)
 
@@ -285,6 +286,7 @@ public class HelloWorldMainApplication {
 ```
 
 `HelloController.java`:
+
 ```java
 package com.atguigu.controller;
 import org.springframework.stereotype.Controller;
